@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcat_er-function that concat error msg
+ * strcat_cd-function that concat error msg
  * @datash: data relevant (directory)
  * @msg: message to print
  * @error: output message

@@ -33,7 +33,8 @@ void set_data(data_shell *datash, char **av)
 	datash->status = 0;
 	datash->counter = 1;
 
-	for (i = 0; environ[i]; i++)		;
+	for (i = 0; environ[i]; i++)
+		;
 	datash->_environ = malloc(sizeof(char *) * (i + 1));
 	for (i = 0; environ[i]; i++)
 	{
