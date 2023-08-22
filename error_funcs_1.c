@@ -2,13 +2,13 @@
 
 /**
  * strcat_er-function that concat error msg
- * @datsh: data relevant (directory)
+ * @datash: data relevant (directory)
  * @msg: message to print
  * @error: output message
  * @ver_str: counter lines
  * Return: error message
  */
-char *strcat_er(data_shell *datsh, char *msg, char *error, char *ver_str)
+char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 {
 	char *illegal_flag;
 
